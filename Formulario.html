@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Contratacion de Internet</title>
+    <link rel="stylesheet" href="Estilos.css">
+</head>
+<body>
+    <header>
+        <nav class="menuNavegacion">
+            <div class="link"><a href="index.html">Inicio</a></div>
+            <div class="link"><a href="Formulario.html">Formulario</a></div>
+            <div class="link"><a href="Departamentos.html">Departamentos</a></div>
+            <div class="link"><a href="LenguajesDeProgramacion.html">Lenguajes</a></div>
+        </nav>
+    </header>
+    <main>
+        <div class="Form">
+            <h2>Formulario de Contratacion de Servicio de Internet.</h2>
+            <form>
+                <div class="Form name global">
+                    <label for="NombreC">Nombre completo del contratante:</label>
+                    <input type="text" name="NombreC">
+                </div>
+                <div class="Form DUI global">
+                    <label for="DUI">Numero de DUI:</label>
+                    <input type="text" name="DUI">
+                </div>
+                <div class="Form Tel global">
+                    <label for="NumT">Numero de telefono:</label>
+                    <input type="tel" name="NumT">
+                </div>
+                <div class="Form Dirc global">
+                    <label for="Direccion">Direccion donde se solicita el servicio:</label>
+                    <input type="text" name="Direccion">
+                </div>
+                <div class="Form Pmetod global">
+                    <label>Metodo de pago:</label><br>
+                    <input type="radio" name="MetodoPg" id="Efectivo">
+                    <label for="Efectivo">Efectivo</label>
+                    <input type="radio" name="MetodoPg" id="TarjetaC">
+                    <label for="TarjetaC">Tarjeta de credito/debito</label>
+                    <input type="radio" name="MetodoPg" id="TransferenciB">
+                    <label for="TransferenciB">Transferencia bancaria</label>
+                </div>
+                <div class="Form Veloc global">
+                    <label for="VelocidadI">Plan a contratar</label>
+                    <select name="VelocidadI" id="VelocidadI">
+                        <option value=""></option>
+                        <option value="">20Mbps(&#36;25)</option>
+                        <option value="">50Mbps(&#36;30)</option>
+                        <option value="">100Mbps(&#36;45)</option>
+                    </select>
+                </div>
+                <div class="Form Extra global">
+                    <label for="InstruccionesE">Intrucciones extra</label><br>
+                    <textarea name="InstruccionesE" id="InstruccionesE"></textarea>
+                </div>
+                
+                <div class="Form Reset">
+                    <input type="reset">
+                </div>
+                <div class="Form Submit">
+                    <input type="submit">
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,229 @@
+/*Estilos globales*/
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+    background: #6D9886;
+    color: #F7F7F7;
+}
+.Clearfix{
+    clear: both;
+}
+/*Inicio INDEX*/
+/*Menu de navegacion*/
+nav{
+    width: auto;
+    height: 80px;
+    background-color: #393E46;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.link a{
+    text-decoration: none;
+    font-size: 130%;
+    color: #F6F6F6;
+}
+nav a:hover{
+    color: #cef8cd;
+    border-bottom: 3.5px solid #6D9886;
+    border-radius: 1px;
+    font-size: 200%;
+    width: 100%;
+}
+
+.link{
+    display: inline-block;
+    height: 50%;
+    padding-top: 25px;
+    margin-left: 8%;
+    text-align: center;
+}
+/*Titulo*/
+main h2{
+    text-align: center;
+    font-size: 250%;
+    color: #F7F7F7;
+    margin-top: 50px;
+}
+
+/*Estilos de la tabla*/
+
+table{
+    width: 45%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    margin-top: 25px;
+    font-size: 25px; 
+    border: 1px solid #393E46;
+}
+th{
+    border: 1px solid #393E46;
+}
+.colored{
+    background-color: #393E46;
+}
+table td{
+    text-align: center;
+}
+
+/*Logo de ITCA*/
+main #logoItca{
+    width: 45%;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+}
+/*Fin INDEX*/
+
+/*Inicio Form*/
+
+.Form{
+    width: 35%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 5%;
+    border: 1px solid #F2E7D5;
+    border-radius: 15px;
+    color: #F7F7F7;
+    background-color: #393E46;
+    padding: 20px;
+}
+.Form h2{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 150%;
+    color: #F7F7F7;
+}
+.global{
+    width: auto;
+    border: none;
+    margin: 0;
+}
+.name input{
+    width: 65%;
+    height: 20px;
+}
+.DUI input{
+    width: 20%;
+    height: 20px;
+}
+.Tel input{
+    width: 25%;
+    height: 20px;
+}
+.Dirc input{
+    width: 60%;
+    height: 20px;
+}
+.Form label{
+    font-size: 110%;
+}
+.Form input{
+    background-color: #F2E7D5;
+    border-radius: 2px;
+    color: #393E46;
+    padding-left: 10px;
+    accent-color: #6D9886;
+}
+.Form input:focus{
+    border: none;
+    outline: none;
+    border: 1px solid #393E46;
+}
+.Form input:active{
+    border: none;
+    outline: none;
+    border: 1px solid #393E46;
+}
+.Form textarea{
+    width: 60%;
+    height: 50px;
+    padding-left: 0.5%;
+    padding-top: 0.5%;
+    border-radius: 2px;
+    border: 1px solid;
+    background-color: #F2E7D5;
+    color: #393E46;
+    font-size: 125%;
+    resize: none;
+}
+.Form textarea:focus{
+    border: none;
+    outline: none;
+    border: 1px solid #393E46;
+}
+.Form textarea:active{
+    border: none;
+    outline: none;
+    border: 1px solid #393E46;
+}
+.Form select{
+    background-color: #F2E7D5;
+}
+.Form .Reset{
+    padding: 0;
+    width: 20%;
+    border: none;
+    display: inline-block;
+}
+.Reset input{
+    padding: 5px 20px;
+    background-color: #6D9886;
+    color: #F7F7F7;
+    border-radius: 4px;
+    border: 1px solid #6D9886;
+}
+.Reset  input:hover{
+    border: 1px solid #F7F7F7;
+}
+.Form .Submit{
+    padding: 0;
+    width: 20%;
+    border: none;
+    display: inline-block;
+}
+.Submit input{
+    padding: 5px 20px;
+    background-color: #6D9886;
+    color: #F7F7F7;
+    border-radius: 4px;
+    border: 1px solid #6D9886;
+}
+.Submit input:hover{
+    border: 1px solid #F7F7F7;
+}
+/*Fin form*/
+
+/*Inicio Departamentos*/
+.Departamento{
+    width: 95%;
+    margin: 0 auto;
+}
+.Departamento h3{
+    text-align: center;
+    font-size: 150%;
+
+}
+
+.Departamento img{
+    width: 8%;
+    display: inline-block;
+    margin-right: 5%;
+}
+.Departamento p{
+    font-size: 125%;
+    margin-bottom: 15px;
+    margin-top: 20px;
+    text-align: center;
+    display: inline-block;
+}
+.Departamento .Municipios{
+    display: inline-block;
+}
+.Aua{
+    width: auto;
+    border: 1px solid grey;
+}

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Departamentos de EL Salvador</title>
+    <link rel="stylesheet" href="Estilos.css">
+</head>
+<body>
+    <header>
+        <nav class="menuNavegacion">
+            <div class="link"><a href="index.html">Inicio</a></div>
+            <div class="link"><a href="Formulario.html">Formulario</a></div>
+            <div class="link"><a href="Departamentos.html">Departamentos</a></div>
+            <div class="link"><a href="LenguajesDeProgramacion.html">Lenguajes</a></div>
+        </nav>
+    </header>
+    <main>
+        <div>
+            <h3>Ahuachapán</h3>
+            <img src="img/EscudoAuchapan.png" id="Banderas">
+            <p>Fue fundado el 9 de febrero de 1869.</p>
+            <p>Cantidad de habitantes (2014): 375,496</p>
+            <p>De la zona occidental del país.</p>
+            <h4>Municipios</h4>
+            <ol>
+                <li>Ahuachapán</li>
+                <li>Apaneca</li>
+                <li>Atiquizaya</li>
+                <li>Concepción de Ataco</li>
+                <li>El Refugio</li>
+                <li>Guaymango</li>
+                <li>Jujutla</li>
+                <li>San Francisco Menéndez</li>
+                <li>San Lorenzo</li>
+                <li>San Pedro Puxtla</li>
+                <li>Tacuba</li>
+                <li>Turín</li>
+            </ol>
+        </div>
+        <div>
+            <h3>Cabañas</h3>
+            <img src="img/EscudoCabañas.png" id="Banderas">
+            <p>Fue fundado el 10 de febrero de 1873.</p>
+            <p>Cantidad de habitantes (2017): 215,400</p>
+            <p>De la zona paracentral del pais.</p>
+            <h4>Municipios</h4>
+            <ol>
+                <li>Cinquera</li>
+                <li>Dolores</li>
+                <li>Guacotecti</li>
+                <li>Ilobasco</li>
+                <li>Jutiapa</li>
+                <li>San Isidro</li>
+                <li>Sensuntepeque</li>
+                <li>Tejutepeque</li>
+                <li>Victoria</li>
+            </ol>
+        </div>
+        <div>
+            <h3>Chalatenango</h3>
+            <img src="img/EscudoChalatenango.png" id="Banderas">
+            <p>Fue fundado en el año de 1855.</p>
+            <p>Cantidad de habitantes (2018): 275,100</p>
+            <p>De la zona central del país.</p>
+            <h4>Municipios</h4>
+            <ol>
+                <li>Agua Caliente</li>
+                <li>Arcatao</li>
+                <li>Azacualpa</li>
+                <li>Cancasque</li>
+                <li>Chalatenango</li>
+                <li>Citalá</li>
+                <li>Comapala</li>
+                <li>Concepción Quezaltepeque</li>
+                <li>Dulce Nombre de María</li>
+                <li>El Carrizal</li>
+                <li>El Paraíso</li>
+                <li>La Laguna</li>
+                <li>La Palma</li>
+                <li>La Reina</li>
+                <li>Las Flores</li>
+                <li>Las Vueltas</li>
+                <li>Nombre de Jesús</li>
+                <li>Nueva Concepción</li>
+                <li>Nueva Trinidad</li>
+                <li>Ojos de Agua</li>
+                <li>Potonico</li>
+                <li>San Antonio de la Cruz</li>
+                <li>San Antonio Los Ranchos</li>
+                <li>San Fernando</li>
+                <li>San Francisco Lempa</li>
+                <li>San Francisco Morazán</li>
+                <li>San Ignacio</li>
+                <li>San Isidro Labrador</li>
+                <li>San Luis del Carmen</li>
+                <li>San Miguel de Mercedes</li>
+                <li>San Rafael</li>
+                <li>Santa Rita</li>
+                <li>Tejutla</li>
+            </ol>
+        </div>
+        <div>
+            <h3>Cuscatlán</h3>
+            <img src="img/EscudoCuscatlán.PNG" id="Banderas">
+            <p>Fue fundado en el año de 1835.</p>
+            <p>Cantidad de habitantes (2018): 232,238</p>
+            <p>De la zona central del país.</p>
+            <h4>Municipios</h4>
+            <ol>
+                <li>Cojutepeque</li>
+                <li>Candelaria</li>
+                <li>El Carmen</li>
+                <li>El Rosario</li>
+                <li>Monte San Juan</li>
+                <li>Oratorio de Concepción</li>
+                <li>San Bartolomé Perulapía</li>
+                <li>San Cristóbal</li>
+                <li>San José Guayabal</li>
+                <li>San Pedro Perulapán</li>
+                <li>San Rafael Cedros</li>
+                <li>San Ramón</li>
+                <li>Santa Cruz Analquito</li>
+                <li>Santa Cruz Michapa</li>
+                <li>Suchitoto</li>
+                <li>Tenancingo</li>
+            </ol>
+        </div>
+    </main>
+</body>
+</html>
+
